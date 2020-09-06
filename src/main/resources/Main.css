@@ -1,0 +1,37 @@
+/*
+############################################
+                 MenuBar
+############################################
+*/
+.menu-bar{
+    -fx-background-color: inherit;
+    -fx-padding: 0;
+}
+
+.menu{
+    -fx-min-width: 50px;
+}
+
+
+.menu-item{
+    -fx-background-color: transparent;
+}
+
+.menu:hover, .menu:showing, .menu-item:hover{
+    -fx-background-color: black;
+    -fx-cursor: hand;
+    -fx-background-radius: 5px;
+}
+
+.menu > .label , .menu-item > .label{
+    -fx-font-size: 15px;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+}
+
+.menu:hover > .label, .menu:showing > .label , .menu-item:hover > .label {
+    -fx-text-fill: white;
+}
+
+
+
